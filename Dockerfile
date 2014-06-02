@@ -1,6 +1,6 @@
 FROM ubuntu:12.04
 MAINTAINER Arcus "http://arcus.io"
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe multiverse" > /etc/apt/sources.list
+# RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe multiverse" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install -y wget
 RUN RUNLEVEL=1 DEBIAN_FRONTEND=noninteractive apt-get install -y cron
