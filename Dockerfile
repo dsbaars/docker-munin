@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTAINER Arcus "http://arcus.io"
+MAINTAINER Uchio KONDO "http://udzura.jp"
 # RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe multiverse" > /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install -y wget
